@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<input id="" type="button" value="clickme" onclick="alertMessage()">
+<p id="abc"></p>
+<script>
+    function  alertMessage(){
+        alert("xin chao")
+    }
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<input id="" type="button" value="clickme" onclick="number()">
+<script>
+
+    function number(a){
+        var a = +prompt("enter number")
+        a++;
+        return alert(a);
+    }
+
+
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<script>
+
+    function addNumbers(a,b){
+         a= + prompt("enter a");
+         b= +prompt("enter b");
+        if(a>b){
+            return alert("tham so thu nhat lon hon tham so thu 2" );
+        }
+        else {
+            let total = a + b;
+            return alert(total);
+        }
+
+    }
+    addNumbers();
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<script>
+    function addNumbers() {
+        firstNum = 4;
+        secondNum = 8;
+        result = firstNum + secondNum;
+        return alert(result);
+    }
+
+    result = 0;
+    result = addNumbers();
+    alert(result);
+</script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<script>
+    let star=["Polaris","Aldebaran","Deneb","Vega","Altair","Dubhe","Regulus"];
+    let star1=["Ursa","Minor","Tarurus","Cygnus","Lyra","Aquila","UrsaMajor","Leo"];
+    function findStar(fin){
+        for(let i=0;i<star.length;i++){
+            if(star[i]==fin){
+                fin=star1[i]
+
+            }
+        }
+        return alert(fin)
+    }
+    let fin=prompt("enter star");
+    findStar(fin);
+</script>
+</body>
+</html>
